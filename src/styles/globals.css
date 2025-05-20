@@ -1,0 +1,101 @@
+/* Custom CSS overrides for Bootstrap */
+.btn-primary {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn-primary:hover {
+  background-color: #004494;
+  border-color: #004494;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.task-card {
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.sidebar {
+  min-height: calc(100vh - 56px);
+  background-color: #f8f9fa;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.priority-urgent {
+  border-left: 5px solid #dc3545;
+}
+
+.priority-high {
+  border-left: 5px solid #fd7e14;
+}
+
+.priority-medium {
+  border-left: 5px solid #ffc107;
+}
+
+.priority-low {
+  border-left: 5px solid #20c997;
+}
+
+.status-badge {
+  margin-right: 8px;
+}
+
+/* Status Colors */
+.badge-todo {
+  background-color: #6c757d;
+}
+
+.badge-in-progress {
+  background-color: #007bff;
+}
+
+.badge-review {
+  background-color: #fd7e14;
+}
+
+.badge-done {
+  background-color: #28a745;
+}
+
+/* Profile page styles */
+.profile-header {
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Project board */
+.board-column {
+  min-height: 500px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1rem;
+}
